@@ -52,7 +52,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2em; /*para dar espassamento entre as palavras e linhas*/
     padding-left: 30px; /**para dar espaço do lado esquerdo da tela */
-    font-size: 1.8vw;
+    font-size: 3vw;
 }
 
 section > p {
@@ -73,7 +73,7 @@ section.imagem {
 section#img01 {
     background-image: url('../Imagens/This\ is\ War.gif');
     background-position: center ;
-    background-size: cover;
+    
 }
 section#img02 {
     background-image: url('../Imagens/gritogif.gif');

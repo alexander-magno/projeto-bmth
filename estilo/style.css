@@ -79,6 +79,7 @@ section#img02 {
     background-image: url('../Imagens/gritogif.gif');
     background-position: center ;
     background-size: cover;
+    width: 100%;
 }
 
 section#img03 {

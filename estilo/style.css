@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'escrita';
+    src: url('/projeto/desafio12/fonte1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'escrita';
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: white;
+}
+
+header {
+    background-color: black ;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 5vw; /* significa 5% do largura total da tela, para ela ajustar conforme o tamanho da tela */
+}
+
+header > p {
+    padding-bottom: 50px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; /*para dar espassamento entre as palavras e linhas*/
+    padding-left: 30px; /**para dar espaço do lado esquerdo da tela */
+    font-size: 1.8vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: black;
+    color: white;
+}
+
+section.imagem {
+    color: white;
+    box-shadow: inset 6px 6px 13px 13px black;
+    background-attachment: fixed;
+}
+
+section#img01 {
+    background-image: url('../Imagens/This\ is\ War.gif');
+    background-position: center ;
+    background-size: cover;
+}
+section#img02 {
+    background-image: url('../Imagens/gritogif.gif');
+    background-position: center ;
+    background-size: cover;
+}
+
+section#img03 {
+    background-image: url("../Imagens/seringas.gif");
+    background-position: center ;
+    background-size: cover;
+}
+
+section#img04 {
+    background-image: url('../Imagens/virusgif.gif');
+    background-position: center ;
+    background-size: cover;
+}
+section#img05 {
+    background-image: url('../Imagens/Olivergif.gif');
+    background-position: center ;
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}

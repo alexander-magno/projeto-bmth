@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'escrita';
-    src: url('/projeto/desafio12/fonte1.ttf') format('truetype');
+    src: url('/fonte1.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

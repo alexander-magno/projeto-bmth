@@ -57,6 +57,7 @@ section {
 
 section > p {
     padding-bottom: 2em;
+    text-align: center;
 }
 
 section.normal {
@@ -77,13 +78,14 @@ section#img01 {
 }
 section#img02 {
     background-image: url('../Imagens/gritogif.gif');
+    background-position: center;
     background-size: cover;
-    width: 100%;
+    
 }
 
 section#img03 {
     background-image: url("../Imagens/seringas.gif");
-    background-position: center ;
+    background-position: center;
     background-size: cover;
 }
 
